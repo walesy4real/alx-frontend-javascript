@@ -5,15 +5,15 @@ export interface Student {
   location: string;
 }
 const studentA: Student = {
-  firstName: "Oloyede",
-  lastName: "Shola",
-  age: 26,
-  location: "LAgos, Nigeria",
+  firstName: "Adewale",
+  lastName: "Olagoke",
+  age: 35,
+  location: "Lagos, Nigeria",
 };
 const studentB: Student = {
-  firstName: "Enitan",
-  lastName: "Oloyede",
-  age: 22,
+  firstName: "Adeola",
+  lastName: "David",
+  age: 33,
   location: "Johannesburg, South Africa",
 };
 
@@ -57,7 +57,7 @@ const styleSheet = `
 /**
  * Displays information about students in a table.
  * @param students The list of students to display.
- * @author Olatunde Oloyede <https://github.com/sirtuns4real>
+ * @author Olatunde Oloyede <https://github.com/walesy4real>
  */
 export const displayStudents = (students: Array<Student>): void => {
   const table = document.createElement('table');
